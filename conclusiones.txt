@@ -1,0 +1,41 @@
+Conclusiones del Escenario de Prueba Automatizado
+
+*Flujo E2E ejecutado:
+Pago de una compra de 2 productos en Swag Labs con cuenta autenticada.
+
+Duración: 28 segundos, dentro del rango de 10 a 30 segundos.
+Resultado: Caso exitoso según las aserciones y comportamientos esperados.
+Evidencias detalladas: Disponibles en /target/site/serenity/index.html.
+
+*Mejoras Sugeridas:
+
+Eficiencia: Reducir tiempos de espera explícitos.
+Conjunto de datos: Ampliar y manejar pruebas basadas en datos (data-driven).
+Compatibilidad: Evaluar en diferentes navegadores y resoluciones, utilizando herramientas de cross-browser testing como LambdaTest/
+
+*Conclusiones de la Prueba Técnica
+
+**Cypress:
+
+Completo y Eficiente: Buena integración y comunicación gracias a NodeJS, soporta pruebas E2E, API, y navegadores como Chrome, Firefox, Edge.
+
+Limitaciones: No soporta Safari ni pruebas móviles.
+Lenguaje: Solo JavaScript.
+Documentación y Comunidad: Amplio soporte.
+
+**Selenium con Serenity-BDD:
+
+Cobertura Amplia: Soporta aplicaciones web y móviles (Appium), múltiples lenguajes (Java, JavaScript, Python, etc.).
+Framework Robusto: Facilita el uso con constructos DSL y Screenplay para mejor mantenibilidad.
+Eficiencia: Menor debido a la dependencia de drivers de navegadores.
+Informes Detallados: Genera informes estructurados y gráficos de consumo y cobertura.
+
+**Selección Basada en el Contexto:
+
+Diversidad de Usuarios: Necesidad de soporte para Safari (usuarios MacOS).
+Futuras Apps Móviles: Relevancia de Appium para pruebas móviles.
+Constante Evolución: Screenplay para mejor mantenibilidad a largo plazo.
+Costo y Presupuesto: Serenity es de código abierto y gratuito.
+Lenguajes: Soporte para Java y JavaScript.
+
+En resumen, la elección de Serenity-BDD con Selenium y Appium es ideal para un e-commerce como Swag Labs debido a su amplia cobertura, soporte a largo plazo, y costo accesible.
